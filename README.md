@@ -1,1 +1,1 @@
-https://github.com/Maxim-Bo/rsschool-cv
+https://borovikm.github.io/rsschool-cv/cv
