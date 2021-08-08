@@ -2,10 +2,11 @@
 
 ## Contacts: 
 
+**Phone:** +375 29 122 09 55
 
-### Phone: +375 29 122 09 55
-### E-mail: maxim.bma10@gmail.com
-### [LinkedIn](https://www.linkedin.com/in/maxim-borovik-4081ba113/)
+**E-mail:** maxim.bma10@gmail.com
+
+[LinkedIn](https://www.linkedin.com/in/maxim-borovik-4081ba113/)
 
 ## About
 
