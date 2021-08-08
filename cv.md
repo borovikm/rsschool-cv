@@ -22,12 +22,13 @@ Minsk State College of Light Industry Enterprise
 
 ## Skills
 
-* HTML
-* CSS
+* HTML 
+* CSS (SASS/SCSS)
 * JavaScript
 * Git
-* Sass
 * Gulp
+* BEM
+* Photoshop, Figma, Zeplin
 
 ## Code example
 
@@ -43,3 +44,8 @@ function noSpace(x){
 
 ![stage1](img/stage1.jpg)|![](img/stage2.jpg)|![](img/stage3.jpg)                    
  
+## Languages
+
+*Russian* - native speaker
+
+*English* - A2+. **I`ve lived and worked in Dubai within 2 years.**
