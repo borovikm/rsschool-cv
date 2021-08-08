@@ -11,5 +11,33 @@
 
 I am always keen in self-development and improvement. I’m communicable, loyal and flexible. I have an analytical mind and i am a hard worker. Self-driven, responsible and committed. I`m quick learner and able to adapt. 
 
-## Experience 
+I have more than 10 years of experience as chief accountant.
 
+## Education
+
+International Humanitarian and Economic Institute
+
+Minsk State College of Light Industry Enterprise
+
+## Skills
+
+* HTML
+* CSS
+* JavaScript
+* Git
+* Sass
+* Gulp
+
+## Code example
+
+``` 
+function noSpace(x){
+  return x.replace(/\s+/g, '');
+} 
+```
+
+## Courses
+
+* [Loftscool.com](https://loftschool.com/) Course: Profession: Web-Developer 
+
+![stage1](img/stage1.jpg) ![stage1](img/stage2.jpg) ![stage1](img/stage3.jpg)
