@@ -6,6 +6,8 @@
 
 **E-mail:** maxim.bma10@gmail.com
 
+[GitHub](https://github.com/borovikm)
+
 [LinkedIn](https://www.linkedin.com/in/maxim-borovik-4081ba113/)
 
 ## About
