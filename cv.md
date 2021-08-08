@@ -41,4 +41,5 @@ function noSpace(x){
 
 * [Loftscool.com](https://loftschool.com/) Course: Profession: Web-Developer 
 
-![stage1](img/stage1.jpg) ![stage1](img/stage2.jpg) ![stage1](img/stage3.jpg)
+![stage1](img/stage1.jpg)|![](img/stage2.jpg)|![](img/stage3.jpg)                    
+ 
