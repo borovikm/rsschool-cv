@@ -1,2 +1,75 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
 
+ul, li {
+    list-style: none;
+}
 
+.header {
+    background-color: #C6D9DF;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+}
+
+.header__container {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header__content {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header__title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contacts {
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.contacts__item {
+    margin-bottom: 10px;
+    flex: 1 50%;
+}
+
+.contacts__desc {
+    font-weight: bold;
+}
+
+.avatar {
+    width: 50%;
+    text-align: center;
+}
+
+.avatar__img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.skill__item:before {
+    content: '';
+    display: inline-block;
+    background-image: url(../img/green-checkmark.svg);
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+
+}
