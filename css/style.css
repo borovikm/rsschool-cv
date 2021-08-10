@@ -1,75 +1,162 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
-ul, li {
+ul,
+li {
     list-style: none;
 }
 
-.header {
-    background-color: #C6D9DF;
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    font-family: sans-serif;
 }
 
 .container {
-    margin: auto;
+    padding: 20px;
+    margin: 0 auto;
     max-width: 1200px;
 }
 
 .header__container {
-    padding: 20px 30px;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
+}
+
+/* Header */
+
+.header {
+    background-color: #c6d9df;
 }
 
 .header__content {
     display: flex;
-    width: 50%;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: column;  
+    justify-content: center;
 }
 
 .header__title {
+    margin-bottom: 25px;
     text-align: center;
-    margin-bottom: 50px;
 }
 
 .contacts {
-    padding: 0;
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 .contacts__item {
-    margin-bottom: 10px;
-    flex: 1 50%;
+    margin-bottom: 15px;
+    width: 50%;
+    display: flex;
 }
 
 .contacts__desc {
     font-weight: bold;
+    margin-right: 20px;
+}
+
+.contacts__link, .course__link {
+    text-decoration: none;
+    color: #003D74;
+}
+
+.contacts__link:hover {
+    text-decoration: underline;
 }
 
 .avatar {
-    width: 50%;
-    text-align: center;
+    width: 250px;
+    height: 250px;
 }
 
 .avatar__img {
-    height: 250px;
-    width: 250px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    border: 3px solid white;
     border-radius: 50%;
+    border: 3px solid white;
+}
+
+/* Sections */
+
+.section {
+    margin-bottom: 20px;
+}
+
+.sub__title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skill__item {
+    position: relative;
+    padding-left: 32px;
+    margin-bottom: 5px;
+}
+
+.skill__item:last-child {
+    margin-bottom: 0;
 }
 
 .skill__item:before {
-    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate3d(50% 50%);
+    content: "";
     display: inline-block;
     background-image: url(../img/green-checkmark.svg);
     width: 20px;
     height: 20px;
     background-size: 20px 20px;
+}
 
+.education__desc {
+    margin-bottom: 20px;
+}
+
+.course__link{
+    display: block;
+    margin: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.course__link:hover {
+    text-decoration: underline;
+}
+
+.course__list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.code {
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.language__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.language__item {
+    margin-bottom: 20px;
+}
+
+.language__item:last-child {
+    margin-bottom: 0;
 }

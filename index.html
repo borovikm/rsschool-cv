@@ -26,11 +26,11 @@
                         </li>
                         <li class="contacts__item">
                             <span class="contacts__desc">GitHub:</span>
-                            <a href="https://github.com/borovikm" class="contats__link" target="_blank">borovikm</a>
+                            <a href="https://github.com/borovikm" class="contacts__link" target="_blank">borovikm</a>
                         </li>
                         <li class="contacts__item">
                             <span class="contacts__desc">LinkedIn:</span>
-                            <a href="https://www.linkedin.com/in/maxim-borovik-4081ba113/" class="contats__link"
+                            <a href="https://www.linkedin.com/in/maxim-borovik-4081ba113/" class="contacts__link"
                                 target="_blank">Maxim Borovik</a>
                         </li>
                     </ul>
@@ -42,56 +42,67 @@
             </div>
         </header>
         <main class="main">
-            <section class="section about">
-                <h2 class="about__title">About</h2>
-                <p class="about__text">I am always keen in self-development and improvement. I’m communicable, loyal and
-                    flexible. I have an analytical mind and i am a hard worker. Self-driven, responsible and committed.
-                    I`m quick learner and able to adapt.
+            <div class="container">
+                <section class="section about">
+                    <h2 class="sub__title">About</h2>
+                    <p class="about__text">I am always keen in self-development and improvement. I’m communicable, loyal
+                        and
+                        flexible. I have an analytical mind and i am a hard worker. Self-driven, responsible and
+                        committed.
+                        I`m quick learner and able to adapt.
 
-                    I have more than 10 years of experience as chief accountant.</p>
-            </section>
-            <section class="section skill">
-                <h2 class="skill__title">Skills</h2>
-                <ul class="skill__list">
-                    <li class="skill__item">HTML</li>
-                    <li class="skill__item">CSS (SASS/SCSS)</li>
-                    <li class="skill__item">JavaScript</li>
-                    <li class="skill__item">Git</li>
-                    <li class="skill__item">Gulp</li>
-                    <li class="skill__item">BEM</li>
-                    <li class="skill__item">Photoshop, Figma, Zeplin</li>
-                </ul>
-            </section>
-            <section class="section education">
-                <h2 class="education__title">Education</h2>
-                <p class="education__desc">International Humanitarian and Economic Institute</p>
-                <p class="education__desc">Minsk State College of Light Industry Enterprise</p>
-            </section>
-            <section class="section courses">
-                <h2 class="courses__title">Course</h2>
-                <a href="https://loftschool.com/" class="course__link">loftschool.com</a>
-                <ul class="course__list">
-                    <li class="courses__item">
-                        <img src="./img/stage1.jpg" alt="" class="course__cer">
-                        <img src="./img/stage2.jpg" alt="" class="course__cer">
-                        <img src="./img/stage3.jpg" alt="" class="course__cer">
-                    </li>
-                </ul>
-                <code class="code">
-                    <pre>
-                        function noSpace(x){
-                            return x.replace(/\s+/g, '');
-                        } 
-                    </pre>
-                </code>
-            </section>
-            <section class="section language">
-                <h2 class="language__title">Languages</h2>
-                <ul class="language__list">
-                    <li class="language__item">Russian - native speaker</li>
-                    <li class="language__item">English - A2+. I`ve lived and worked in Dubai within 2 years.</li>
-                </ul>
-            </section>
+                        I have more than 10 years of experience as chief accountant.</p>
+                </section>
+                <section class="section skill">
+                    <h2 class="sub__title">Skills</h2>
+                    <ul class="skill__list">
+                        <li class="skill__item">HTML</li>
+                        <li class="skill__item">CSS (SASS/SCSS)</li>
+                        <li class="skill__item">JavaScript</li>
+                        <li class="skill__item">Git</li>
+                        <li class="skill__item">Gulp</li>
+                        <li class="skill__item">BEM</li>
+                        <li class="skill__item">Photoshop, Figma, Zeplin</li>
+                    </ul>
+                </section>
+                <section class="section education">
+                    <h2 class="sub__title">Education</h2>
+                    <p class="education__desc">International Humanitarian and Economic Institute</p>
+                    <p class="education__desc">Minsk State College of Light Industry Enterprise</p>
+                </section>
+                <section class="section courses">
+                    <h2 class="sub__title">Courses</h2>
+                    <a href="https://loftschool.com/" class="course__link">loftschool.com</a>
+                    <ul class="course__list">
+                        <li class="course__item">
+                            <img src="./img/stage1.jpg" alt="" class="course__cer">
+                            <img src="./img/stage2.jpg" alt="" class="course__cer">
+                            <img src="./img/stage3.jpg" alt="" class="course__cer">
+                        </li>
+                    </ul>
+                    <code class="code">
+                        <pre>
+                         function filterBySalary (array, salary) {
+                            let resultArr = []
+                            for (var i=0; i < array.length; i++) {
+                            let employee = array[i]
+                            if (employee.salary > salary) {
+                            resultArr.push(employee.name)
+                                }
+                            }
+                               return resultArr
+                         }
+                        </pre>
+                    </code>
+                </section>
+                <section class="section language">
+                    <h2 class="sub__title">Languages</h2>
+                    <ul class="language__list">
+                        <li class="language__item">Russian - native speaker</li>
+                        <li class="language__item">English - A2+. I lived and worked in Dubai for 2 years.</li>
+                    </ul>
+                </section>
+            </div>
         </main>
         <footer class="footer"></footer>
 
