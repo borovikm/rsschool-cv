@@ -15,6 +15,8 @@ li {
     width: 100%;
     overflow: hidden;
     font-family: sans-serif;
+    color: #252932;
+    background-color: #c6d9df;
 }
 
 .container {
@@ -32,12 +34,12 @@ li {
 /* Header */
 
 .header {
-    background-color: #c6d9df;
+    background-color: #B6D6E2;
 }
 
 .header__content {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
     justify-content: center;
     padding: 0 15px 0 0;
 }
@@ -64,9 +66,10 @@ li {
     margin-right: 20px;
 }
 
-.contacts__link, .course__link {
+.contacts__link,
+.course__link {
     text-decoration: none;
-    color: #003D74;
+    color: #003d74;
 }
 
 .contacts__link:hover {
@@ -90,11 +93,16 @@ li {
 
 .section {
     margin-bottom: 20px;
+    color: #003D74;
 }
 
 .sub__title {
     text-align: center;
     margin-bottom: 20px;
+}
+
+.about__text {
+    text-align: center;
 }
 
 .skill__item {
@@ -124,7 +132,7 @@ li {
     margin-bottom: 20px;
 }
 
-.course__link{
+.course__link {
     display: block;
     margin: 15px;
     text-align: center;
