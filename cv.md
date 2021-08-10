@@ -50,4 +50,4 @@ function noSpace(x){
 
 *Russian* - native speaker
 
-*English* - A2+. **I`ve lived and worked in Dubai within 2 years.**
+*English* - A2+. **I lived and worked in Dubai for 2 years.**
