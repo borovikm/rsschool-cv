@@ -27,21 +27,21 @@ li {
 
 .header__container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Header */
 
 .header {
-    background-color: #B6D6E2;
+    background-color: #b6d6e2;
 }
 
 .header__content {
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 15px 0 0;
 }
 
 .header__title {
@@ -56,8 +56,8 @@ li {
 }
 
 .contacts__item {
+    width: 50%;
     margin-bottom: 15px;
-    flex-basis: 50%;
     display: flex;
 }
 
@@ -79,11 +79,13 @@ li {
 .avatar {
     display: flex;
     justify-content: center;
+    width: 50%;
 }
 
 .avatar__img {
     width: 250px;
     height: 250px;
+    -o-object-fit: cover;
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid white;
@@ -93,7 +95,7 @@ li {
 
 .section {
     margin-bottom: 20px;
-    color: #003D74;
+    color: #003d74;
 }
 
 .sub__title {
