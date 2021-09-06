@@ -35,9 +35,17 @@ Minsk State College of Light Industry Enterprise
 ## Code example
 
 ``` 
-function noSpace(x){
-  return x.replace(/\s+/g, '');
-} 
+function filterBySalary(array, salary) {
+  let resultArr = [];
+  for (var i = 0; i < array.length; i++) {
+    let employee = array[i];
+    if (employee.salary > salary) {
+      resultArr.push(employee.name);
+    }
+  }
+  return resultArr;
+}
+
 ```
 
 ## Courses
