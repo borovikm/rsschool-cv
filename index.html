@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/vs.min.css"/>
+    <title>CV</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container header__container">
+                <div class="header__content">
+                    <h1 class="header__title">Maxim Borovik</h1>
+                    <ul class="contacts">
+                        <li class="contacts__item">
+                            <span class="contacts__desc">Phone:</span>
+                            <a class="contacts__link link" href="tel:+375291220955">+375(29) 122-09-55</a>
+                        </li>
+                        <li class="contacts__item">
+                            <span class="contacts__desc">Email:</span>
+                            <a class="contacts__link link" href="mailto:maxim.bma10@gmail.com">maxim.bma10@gmail.com</a>
+                        </li>
+                        <li class="contacts__item">
+                            <span class="contacts__desc">GitHub:</span>
+                            <a class="contacts__link link" href="https://github.com/borovikm"
+                                target="_blank">borovikm</a>
+                        </li>
+                        <li class="contacts__item">
+                            <span class="contacts__desc">LinkedIn:</span>
+                            <a class="contacts__link link" href="https://www.linkedin.com/in/maxim-borovik-4081ba113/"
+                                target="_blank">Maxim Borovik</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="avatar">
+                    <img class="avatar__img" src="img/9.jpg" width="250" height="250" alt="Maxim photo" />
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container main__container">
+                <aside class="skills">
+                    <h2 class="sub__title">Skills</h2>
+                    <ul class="skill__list">
+                        <li class="skill__item">HTML</li>
+                        <li class="skill__item">CSS (SASS/SCSS)</li>
+                        <li class="skill__item">JavaScript</li>
+                        <li class="skill__item">Git</li>
+                        <li class="skill__item">Gulp</li>
+                        <li class="skill__item">BEM</li>
+                        <li class="skill__item">Photoshop, Figma, Zeplin</li>
+                    </ul>
+                    <h2 class="language__title">Languages</h2>
+                    <ul class="language__list">
+                        <li class="language__item">Russian - native speaker</li>
+                        <li class="language__item">
+                            English - A2+. I lived and worked in Dubai for 2 years.
+                        </li>
+                    </ul>
+                </aside>
+                <div class="main__inner">
+                    <section class="section about">
+                        <h2 class="sub__title">About</h2>
+                        <p class="about__text">
+                            I am always keen in self-development and improvement. I’m
+                            communicable, loyal and flexible. I have an analytical mind and i
+                            am a hard worker. Self-driven, responsible and committed. I`m
+                            quick learner and able to adapt.
+                        </p>
+                    </section>
+                    <section class="section education">
+                        <h2 class="sub__title">Education</h2>
+                        <p class="education__desc">
+                            International Humanitarian and Economic Institute
+                        </p>
+                        <p class="education__desc">
+                            Minsk State College of Light Industry Enterprise
+                        </p>
+                    </section>
+                    <section class="section course">
+                        <h2 class="sub__title">Courses</h2>
+                        <a class="course__link link" href="https://loftschool.com/" target="_blank">loftschool.com</a>
+                        <ul class="course__list">
+                            <li class="course__item">
+                                <a class="certificate-link link"
+                                    href="https://loftschool.com/diploma/JF1507283858/en/pdf" target="_blank">
+                                    <img class="course__img" src="./img/stage1.jpg" alt="certificate" />
+                                </a>
+                            </li>
+                            <li class="course__item">
+                                <a class="certificate-link link"
+                                    href="https://loftschool.com/diploma/JF1507283858/en/pdf" target="_blank">
+                                    <img class="course__img" src="./img/stage2.jpg" alt="certificate" />
+                                </a>
+                            </li>
+                            <li class="course__item">
+                                <a class="certificate-link link"
+                                    href="https://loftschool.com/diploma/JF1507283858/en/pdf" target="_blank">
+                                    <img class="course__img" src="./img/stage3.jpg" alt="certificate" />
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="code">
+                        <h2 class="sub__title">Code example</h2>
+                        <pre>
+                            <code class="code__example">
+                        function filterBySalary(array, salary) {
+                            let resultArr = [];
+                            for (var i = 0; i &lt; array.length; i++) {
+                              let employee = array[i];
+                              if (employee.salary > salary) {
+                                resultArr.push(employee.name);
+                              }
+                            }
+                            return resultArr;
+                          }</code>
+                        </pre>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a class="footer__link link" href="https://github.com/borovikm" target="_blank">My GitHub</a>
+                    </li>
+                    <li class="footer__item">
+                        <p class="footer__desc">&copy;2021</p>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link link" href="https://rs.school/js/" target="_blank">
+                            <img src="./img/rs_school_js.svg" alt="rs school" width="150" height="50">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+</body>
+
+</html>
