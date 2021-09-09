@@ -1,1 +1,1 @@
-https://borovikm.github.io/rsschool-cv/cv
+https://borovikm.github.io/rsschool-cv/
