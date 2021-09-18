@@ -1,215 +1,297 @@
+html {
+  font-size: 16px;
+  height: 100%;
+}
 
 body {
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 ul,
 li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 h1,
 h2,
-h3, 
+h3,
 h4,
 h5,
 h6,
 p,
 pre {
-    margin: 0;
-    padding: 0;
-  }
-
+  margin: 0;
+  padding: 0;
+}
 
 .wrapper {
-    width: 100%;
-    overflow: hidden;
-    color: #252932;
-    background-color: #e9eff1;
+  width: 100%;
+  overflow: hidden;
+  color: #252932;
+  background-color: #e9eff1;
 }
 
 .container {
-    padding: 10px;
-    margin: 0 auto;
-    max-width: 1200px;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .header__container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
 }
 
 /* Header */
 
 .header,
 .footer {
-    background-color: #b6d6e2;
+  background-color: #b6d6e2;
 }
 
 .header__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .header__title {
-    margin-bottom: 25px;
-    text-align: center;
+  margin-bottom: 25px;
+  text-align: center;
 }
 
 .contacts {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
 }
 
 .contacts__item {
-    flex-basis: 50%;
-    margin-bottom: 15px;
-    display: flex;
+  flex-basis: 50%;
+  margin-bottom: 15px;
 }
 
 .contacts__desc {
-    font-weight: 700;
-    margin-right: 20px;
+  font-weight: 700;
+  margin-right: 20px;
 }
 
 .link {
-    text-decoration: none;
-    color: #003d74;
+  text-decoration: none;
+  color: #003d74;
 }
 
 .contacts__link:hover,
 .footer__link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .avatar__img {
-    width: 250px;
-    height: 250px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid white;
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid white;
 }
 
 /* Sections */
 
 .main__container {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .skills {
-    flex-basis: 30%;
-    flex-shrink: 0;
-    padding: 0 20px;
-}
-
-.main__inner {
-    padding: 0 20px;
+  flex-basis: 30%;
+  flex-shrink: 0;
+  padding: 0 20px;
 }
 
 .section {
-    margin-bottom: 20px;
-    color: #003d74;
+  margin-bottom: 20px;
 }
 
 .sub__title,
 .language__title {
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
+  color: #003d74;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .skill__item {
-    position: relative;
-    padding-left: 32px;
-    margin-bottom: 5px;
+  position: relative;
+  padding-left: 32px;
+  margin-bottom: 5px;
 }
 
 .skill__item:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .skill__item:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "";
-    background-image: url(../img/green-checkmark.svg);
-    width: 20px;
-    height: 20px;
-    background-size: 20px 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  background-image: url(../img/green-checkmark.svg);
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
 }
 
 .education__desc {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .course__link {
-    display: block;
-    margin: 15px;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
+  display: block;
+  margin: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .course__link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .course__list {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
 }
 
 .course__item {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .certificate-link {
-    text-align: center;
+  text-align: center;
 }
 
 .course__img {
-    width: 100%;
-    height: 100%;
-    padding: 0 10px;
-    overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  overflow: hidden;
 }
 
 .language__list {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .language__item {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .language__item:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 /* Footer */
 
 .footer__list {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__img {
+  width: 150px;
+  height: 50px;
+}
+
+@media screen and (max-width: 991px) {
+.contacts__item {
+  flex-basis: 100%;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .contacts__item {
+    flex-basis: 50%;
+  }
+
+  .header__container {
+    flex-wrap: wrap;
+  }
+
+  .header__content {
+    order: 1;
+  }
+
+  .main__container {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .contacts__item {
+    flex-basis: 100%;
+  }
+  body {
+    font-size: 14px;
+  }
+
+  .code__example {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .sub__title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .footer__img {
+    width: 60px;
+    height: 30px;
+  }
+
+  .course__list {
+    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
+  }
+
+  .course__item {
+    margin-bottom: 10px;
+  }
+  .course__item:last-child {
+    margin-bottom: 0;
+  }
+
+  .code__example {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  body {
+    font-size: 12px;
+  }
+  
+  .code__example {
+    font-size: 10px;
+  }
+
 }
